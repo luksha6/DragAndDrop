@@ -1,0 +1,52 @@
+body {
+    margin:45px 25px;
+    background-color:lightgrey;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1 {
+    color:lightcoral;
+}
+.app {
+    width:900px;
+    height:350px;
+    background-color:white;
+    border:4px solid lightcoral;
+}
+
+.draggableElements {
+    padding:8px;
+    background-color:lightgoldenrodyellow;
+    border:4px solid lightsalmon;
+    margin:4px 0px;
+}
+
+.dropArea {
+    padding:8px;
+    background-color:lightgoldenrodyellow;
+    border:4px solid lightsalmon;
+    margin: 15px 0 0 5px;
+
+}
+.right-column {
+    position:relative;
+    width:400px;
+    height:350px;
+    margin-right:10px;
+    float:right;
+    margin-top:15px;
+}
+
+.left-column {
+    position:relative;
+    width:450px;
+    padding:15px;
+    height:321px;
+    float:left;
+    background-color:lightseagreen;
+}
+
+

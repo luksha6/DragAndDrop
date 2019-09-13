@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title> Simple Drag and Drop project</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1> Simple Drag and Drop project</h1>
+    <div class="app">
+        <div class="left-column">
+            <ul>
+            <li id="draggableElement1"
+                  class="draggableElements"
+                  draggable="true"
+                  ondragstart="onDragStart(event)">
+                MOVE ME!</li>
+            <li id="draggableElement2"
+                  class="draggableElements"
+                  draggable="true"
+                  ondragstart="onDragStart(event)">
+                MOVE ME!</li>
+            <li id="draggableElement3"
+                  class="draggableElements"
+                  draggable="true"
+                  ondragstart="onDragStart(event)">
+                MOVE ME!</li>
+            <li id="draggableElement4"
+                  class="draggableElements"
+                  draggable="true"
+                  ondragstart="onDragStart(event)">
+                MOVE ME!</li>
+            <li id="draggableElement5"
+                  class="draggableElements"
+                  draggable="true"
+                  ondragstart="onDragStart(event)">
+                MOVE ME!</li>
+            </ul>
+        </div>
+
+            <span class="dropArea"> DROP AREA</span>
+
+        <div class="right-column" ondragover="onDragFinish(event)"
+             ondrop="onDrop(event)">
+
+        </div>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
