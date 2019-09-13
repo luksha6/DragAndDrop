@@ -1,2 +1,2 @@
 # DragAndDrop
-Simple Drag and Drop project
+Simple Drag and Drop project (playground)
